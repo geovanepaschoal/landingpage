@@ -1,83 +1,92 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page - Móveis Planejados</title>
+  <title>Móveis Planejados - Projeto Sob Medida</title>
   <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; color:#333; }
-    header { background:#0a3d62; color:#fff; padding:20px; text-align:center; }
-    header h1 { margin:0; font-size:2em; }
-    header p { margin:5px 0 15px; }
-    .btn { display:inline-block; background:#1e3799; color:#fff; padding:12px 24px; text-decoration:none; border-radius:4px; }
-    .container { width:90%; max-width:1000px; margin:40px auto; }
-    .benefits, .steps { display:flex; flex-wrap:wrap; gap:20px; }
-    .benefit, .step { flex:1 1 calc(33% - 20px); background:#f1f2f6; padding:15px; border-radius:4px; }
-    .gallery { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:10px; }
-    .gallery img { width:100%; border-radius:4px; }
-    .testimonial { background:#f8c291; padding:20px; margin:20px 0; border-radius:4px; }
-    footer { background:#d1d8e0; padding:20px; text-align:center; font-size:0.9em; }
+    body { font-family: 'Segoe UI', sans-serif; margin:0; padding:0; color:#333; background:#f7f7f7; }
+    header { background:#2c3e50; color:#fff; padding:40px 20px; text-align:center; }
+    header h1 { margin:0; font-size:2.5em; }
+    header p { margin-top:10px; font-size:1.2em; }
+    .btn { display:inline-block; margin-top:20px; background:#27ae60; color:#fff; padding:14px 28px; text-decoration:none; font-size:1em; border-radius:6px; transition:0.3s; }
+    .btn:hover { background:#219150; }
+    .container { width:90%; max-width:1100px; margin:40px auto; }
+    .section-title { text-align:center; margin-bottom:30px; font-size:1.8em; color:#34495e; }
+    .benefits, .steps { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; }
+    .benefit, .step { flex:1 1 250px; background:#ffffff; padding:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); text-align:center; }
+    .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:15px; }
+    .gallery img { width:100%; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.1); }
+    .testimonial { background:#ecf0f1; padding:30px; border-left:6px solid #2ecc71; margin:30px 0; font-style:italic; border-radius:8px; }
+    footer { background:#bdc3c7; padding:20px; text-align:center; font-size:0.9em; color:#2c3e50; }
   </style>
 </head>
 <body>
   <header>
-    <h1>Transforme Seu Espaço com Móveis Planejados</h1>
-    <p>Acabamento premium, sob medida e prazos confiáveis.</p>
-    <a href="#" class="btn">Orçar via WhatsApp</a>
+    <h1>Seu Espaço, Seu Estilo</h1>
+    <p>Móveis planejados sob medida com acabamento premium e execução profissional</p>
+    <a href="https://wa.me/5524992262668" class="btn" target="_blank">Solicitar Orçamento via WhatsApp</a>
   </header>
 
-  <section class="container benefits">
-    <div class="benefit">
-      <h3>100% Sob Medida</h3>
-      <p>Peças exclusivas e adaptadas ao seu espaço.</p>
-    </div>
-    <div class="benefit">
-      <h3>Acabamento Premium</h3>
-      <p>Materiais selecionados para alta durabilidade.</p>
-    </div>
-    <div class="benefit">
-      <h3>Profissionais Experientes</h3>
-      <p>Marcenaria de alto padrão com +18 anos de mercado.</p>
+  <section class="container">
+    <h2 class="section-title">Por que nos escolher?</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <h3>Projetos Personalizados</h3>
+        <p>Cada centímetro pensado para o seu ambiente.</p>
+      </div>
+      <div class="benefit">
+        <h3>Acabamento Premium</h3>
+        <p>Materiais selecionados, durabilidade e estilo.</p>
+      </div>
+      <div class="benefit">
+        <h3>Equipe Especializada</h3>
+        <p>Marceneiros parceiros com mais de 18 anos de experiência.</p>
+      </div>
     </div>
   </section>
 
   <section class="container">
-    <h2>Projetos Realizados</h2>
+    <h2 class="section-title">Nossos Projetos</h2>
     <div class="gallery">
-      <img src="https://via.placeholder.com/300x200?text=Cozinha" alt="Cozinha Planejada">
-      <img src="https://via.placeholder.com/300x200?text=Closet" alt="Closet Planejado">
-      <img src="https://via.placeholder.com/300x200?text=Escritório" alt="Escritório Planejado">
-      <img src="https://via.placeholder.com/300x200?text=Sala" alt="Sala Planejada">
+      <img src="https://source.unsplash.com/featured/?kitchen" alt="Cozinha Planejada">
+      <img src="https://source.unsplash.com/featured/?livingroom" alt="Sala Planejada">
+      <img src="https://source.unsplash.com/featured/?closet" alt="Closet Planejado">
+      <img src="https://source.unsplash.com/featured/?office" alt="Escritório Planejado">
     </div>
   </section>
 
   <section class="container testimonial">
-    <p>“Ficou além do que eu imaginava. Atendimento excelente e tudo sob medida para meu espaço.”</p>
-    <strong>— Ana Paula, Niterói/RJ</strong>
+    <p>“Fiquei impressionada com o resultado! Atendimento excelente, tudo sob medida e dentro do prazo. Recomendo com certeza.”</p>
+    <strong>— Ana Paula, RJ</strong>
   </section>
 
-  <section class="container steps">
-    <div class="step">
-      <h4>1. Envie sua ideia</h4>
-      <p>Compartilhe planta ou ideias via WhatsApp.</p>
-    </div>
-    <div class="step">
-      <h4>2. Aprovação do Projeto</h4>
-      <p>Receba sugestão de layout e orçamento.</p>
-    </div>
-    <div class="step">
-      <h4>3. Montagem e Entrega</h4>
-      <p>Profissionais executam e instalam em até X dias.</p>
+  <section class="container">
+    <h2 class="section-title">Como Funciona</h2>
+    <div class="steps">
+      <div class="step">
+        <h4>1. Envie sua ideia</h4>
+        <p>Nos conte o que deseja ou envie sua planta via WhatsApp.</p>
+      </div>
+      <div class="step">
+        <h4>2. Aprovação do Projeto</h4>
+        <p>Receba sugestões de layout, orçamento e visualização.</p>
+      </div>
+      <div class="step">
+        <h4>3. Execução e Entrega</h4>
+        <p>Após aprovação, entregamos e montamos seu ambiente.</p>
+      </div>
     </div>
   </section>
 
   <section class="container" style="text-align:center;">
-    <a href="#" class="btn">Fale com um Especialista</a>
+    <a href="https://wa.me/5524992262668" class="btn" target="_blank">Fale Agora com um Especialista</a>
   </section>
 
   <footer>
-    <p>© 2025 Espaço Ideal Planejados – Todos os direitos reservados.</p>
-    <p>Atendemos RJ e região | WhatsApp: (21) 9XXXX-XXXX</p>
+    <p>© 2025 SeuNegócio de Móveis Planejados – Todos os direitos reservados.</p>
+    <p>Atendimento para RJ e região metropolitana | WhatsApp: (21) 9XXXX-XXXX</p>
   </footer>
 </body>
 </html>
